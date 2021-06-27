@@ -619,3 +619,13 @@ a:visited {
   height: 100vh !important;
   object-fit: cover;
 }
+
+#crossdown {
+  color:black;
+  text-decoration: line-through;
+  transition: all 0.3s ease;
+}
+
+#crossdown:hover {
+  text-decoration-color: transparent;
+}
